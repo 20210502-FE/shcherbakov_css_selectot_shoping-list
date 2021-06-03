@@ -1,0 +1,100 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 1240px;
+    height: 810px;
+    border: 23px solid #ffffff;
+    background-color: #3b3f45;
+    margin: 260px auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.title {
+    background-color: #4a4f56;
+    margin: 0px auto;
+    padding-top: 20px;
+    max-width: border-box;
+    font-size: 40px;
+    color: #eb7e7f;
+}
+
+.subtitle {
+    background-color: #4a4f56;
+    margin: 0 auto;
+    padding: 14px 0 20px 0;
+    max-width: border-box;
+    font-size: 20px;
+    color: #eb7e7f;
+}
+
+.list {
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.list__goods:nth-child(2n) {
+    background-color: #88839e;
+}
+
+.list__goods:nth-child(2n+1) {
+    background-color: #7a7593;
+}
+
+.list__goods {
+    list-style-type: none;
+    width: 800px;
+    height: 63px;
+    box-sizing: border-box;
+    font-size: 30px;
+    max-width: border-box;
+    text-align: left;
+    color: #cdc4bb;
+}
+
+.list__goods:first-child {
+    margin-top: 40px;
+}
+
+.list__goods:hover {
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    z-index: 1;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    transition: all .1s ease-in;
+}
+
+input:checked + label  {
+    text-decoration: line-through;
+    color: #a3a0b5;
+}
+
+.list__checkbox {
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #bbbabc;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.goods__intro {
+    margin: 15px 0 0 15px;
+}
+
+.intro__first-words{
+    color: white;
+}
+
+span{
+    color: white;
+}
+
+.footer__title{
+    font-size: 40px;
+    color: #eb7e7f;
+}
